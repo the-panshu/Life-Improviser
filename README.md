@@ -7,8 +7,7 @@ Team Members Name :
 1. Deepanshu Rajput         (https://github.com/the-panshu) </br>
 2. Ayush Singh Rajawat      </br>
 3. Neelansh Agrawal     </br>
-4. Kunwar Aridaman Singh
-</br>
+
 Proposed Feature :
 
 1. User Login/Signup page 
