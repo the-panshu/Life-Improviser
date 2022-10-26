@@ -1,4 +1,4 @@
-Adulting Nobita
+ADULTING NOBITA
 
 Team Name : Zebro Aftermath
 
