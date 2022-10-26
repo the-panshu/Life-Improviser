@@ -4,10 +4,10 @@ Team Name : Zebro Aftermath
 
 Team Members Name :
 
-Deepanshu Rajput         (https://github.com/the-panshu) </br>
-Ayush Singh Rajawat      </br>
-Neelansh Agrawal     </br>
-Kunwar Aridaman Singh
+1. Deepanshu Rajput         (https://github.com/the-panshu) </br>
+2. Ayush Singh Rajawat      </br>
+3. Neelansh Agrawal     </br>
+4. Kunwar Aridaman Singh
 </br>
 Proposed Feature :
 
@@ -16,10 +16,11 @@ Proposed Feature :
 3. Group should be able to have online video session.
 4. Provide Suggestion
 
-
+</br>
 Your Innovation
 
-1. We can create this platform not just for medical field but for other things also like in helping other in : Education , Sports etc.
+ We can create this platform not just for medical field but for other things also . </br>
+   Like Creating selfhelp group for Education sectors , Sports etc.
   
 Tech Stack
 
