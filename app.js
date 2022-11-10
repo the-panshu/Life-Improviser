@@ -61,6 +61,25 @@ app.post("/signup", async function(req,res){
 
 
 
+app.post("/signin", async(req,res)=>{
+    console.log("Hello");
+    const email = req.body.email;
+    const password = req.body.password;
+    const useremail = await User.findOne({email:email});
+    if(password===null || email===null){
+         res.send("Please enter data");
+    }
+    else{
+    if(useremail.password===password){
+        res.sendFile(__dirname+"/home.html");
+        console.log("yayy");
+    } else{
+        res.send("<h1>Password is not Matching</h1>");
+    }
+}
+});
+
+
 http.listen(4000,() => {
     console.log(`port running at ${PORT}`);
 })
