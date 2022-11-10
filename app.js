@@ -13,6 +13,14 @@ const db=mongoose.connection;
 const http = require('http').createServer(app);
 const PORT = process.env.PORT || 4000
 
+
+app.get("/",function(req,res){
+     res.sendFile(__dirname+"/index.html");
+});
+app.get("/signup",function(req,res){
+     res.sendFile(__dirname+"/signup.html");
+});
+
 http.listen(4000,() => {
     console.log(`port running at ${PORT}`);
 })
