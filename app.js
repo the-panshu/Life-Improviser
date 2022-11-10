@@ -29,6 +29,35 @@ app.get("/forgetpass",function(req,res){
 app.get("/signin",function(req,res){
     res.sendFile(__dirname+"/signin.html");
 });
+app.get("/home",function(req,res){
+    res.sendFile(__dirname+"/home.html");
+});
+app.get("/ourdoctors",function(req,res){
+    res.sendFile(__dirname+"/ourdoctors.html");
+});
+app.get("/anxiety",function(req,res){
+    res.sendFile(__dirname+"/anxiety.html");
+});
+app.get("/depression",function(req,res){
+    res.sendFile(__dirname+"/depression.html");
+});
+app.get("/bipolar",function(req,res){
+    res.sendFile(__dirname+"/bipolar.html");
+});
+app.get("/chronic",function(req,res){
+    res.sendFile(__dirname+"/chronic.html");
+});
+app.get("/ptsd",function(req,res){
+    res.sendFile(__dirname+"/ptsd.html");
+});
+app.get("/abuse",function(req,res){
+    res.sendFile(__dirname+"/abuse.html");
+});
+
+app.get('/index1', (req, res) => {
+    res.sendFile(__dirname + '/index1.html')
+})
+
 
 
 
