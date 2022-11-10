@@ -21,6 +21,16 @@ app.get("/signup",function(req,res){
      res.sendFile(__dirname+"/signup.html");
 });
 
+
+app.get("/forgetpass",function(req,res){
+     res.sendFile(__dirname+"/forgetpass.html");
+});
+
+app.get("/signin",function(req,res){
+    res.sendFile(__dirname+"/signin.html");
+});
+
+
 http.listen(4000,() => {
     console.log(`port running at ${PORT}`);
 })
