@@ -60,6 +60,25 @@ app.get('/index1', (req, res) => {
 
 
 
+app.post("/l",function(req,res){
+console.log("Hello");
+const cng=new Cng({
+
+    changepassword:req.body.cngpassword,
+    confirmchangepassword:req.body.ccngpassword
+});
+console.log((cng));
+cng.save();
+if(cng.changepassword===cng.confirmchangepassword)
+{
+    res.send("Your Password has been Saved Succesfully");
+    
+}
+else{
+    res.send("Entered Password is not Same");
+}
+})
+
 
 app.post("/signup", async function(req,res){
     console.log("holaa");
