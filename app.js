@@ -31,6 +31,36 @@ app.get("/signin",function(req,res){
 });
 
 
+
+app.post("/signup", async function(req,res){
+    console.log("holaa");
+   
+    const user=new User({
+    name:req.body.name,
+    email:req.body.email,
+    password:req.body.password,
+    cpassword:req.body.confirmPassword
+    });
+    const email = req.body.email;
+    const ouruser = await User.findOne({email: email});
+    if(ouruser.email === user.email){
+       res.send("This email already exist");
+    
+    }
+    else{
+    if(user.password===user.cpassword){
+    
+    user.save();
+    res.sendFile(__dirname+"/signin.html");
+    }
+    else{
+        res.send("error");
+    }
+}
+});
+
+
+
 http.listen(4000,() => {
     console.log(`port running at ${PORT}`);
 })
