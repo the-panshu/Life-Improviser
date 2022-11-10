@@ -1,0 +1,195 @@
+body
+{
+  background: radial-gradient(purple, black);
+}
+h1{
+    color: rgb(14, 23, 118);
+    font-style: initial;
+}
+
+h4{
+    color: aqua;
+}
+
+.title{
+    padding-top: 5px;
+    margin-left: 250px;
+    font-family: papyrus;
+    font-weight: 900;
+}
+
+.createac{
+    color: rgb(86, 19, 148);
+    font-family:papyrus;
+    font-weight: 900;
+
+}
+
+.img-fluid{
+    background-blend-mode:lighten;
+    
+}
+
+
+.quotes{
+    font-family: papyrus;
+    margin-left:150px;
+    color: rgb(101, 31, 166);
+}
+
+.loginsec{
+    margin-top: 0px;
+}
+
+
+
+
+.home{
+    background-color: rgb(242, 228, 255);
+}
+
+.forgetpass{
+
+    margin-top: 100px;
+    margin-left: 35%;
+    font-family: papyrus;
+    font-weight: 900;
+}
+
+.form-outline2{
+    margin-left: 400px;
+    margin-right:400px;
+}
+
+.btn2{
+    margin-left: 400px;
+    margin-right:400px;
+    border: 2px solid rgb(101, 31, 166);
+    background-color: rgb(101, 31, 166);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rgb(183, 106, 199);
+    padding: 34px;
+    margin: 4px;
+    border-radius: 500px;
+    background-color: rgb(183, 106, 199);
+    
+}
+
+#services .box:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  animation-delay: 0.75ms;
+}
+
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+
+.h-primary{
+    font-size: 4.8rem;
+    font-family: serif;
+    
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.center{
+    text-align: center;
+}
+
+.doctor{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    margin-right: 10px;
+    
+}
+
+
+.text-center{
+    font-family: papyrus;
+}
+
+.forgetpassimg{
+border-radius: 2px;
+width: 450px;
+}
+
+
+.vh-100{
+    margin-left: 10px;
+}
+
+
+.slidertext{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
