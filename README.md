@@ -6,7 +6,7 @@ Team Members Name :
 
 1. Deepanshu Rajput         (https://github.com/the-panshu) </br>
 2. Ayush Singh Rajawat      (https://github.com/Ayush123rajawat) </br>
-
+3. Vishesh Agrawal          (https://github.com/Vishesh-MNNIT)  </br>
 Proposed Feature :
 
 1. User Login/Signup page 
